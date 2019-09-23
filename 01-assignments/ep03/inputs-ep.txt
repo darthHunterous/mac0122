@@ -1,0 +1,15 @@
+1 MAC122
+1 MAC123
+3 0
+1 CODIGO
+2 horario.txt 20
+2 ime.html 40
+3 0
+2 ep1.c 60
+2 ex1.c 50
+1 LIB
+3 2
+2 Pilha.h 10
+4
+3 1
+2 horario.txt 30 

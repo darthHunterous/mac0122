@@ -1,0 +1,4 @@
+Tipo Abstrato de Dados:
+-Tipo de dados (valores + operações) acessado apenas através de uma interface
+O cliente não manipula os valores sem o uso das funções.
+Tipo opaco de dados: a representação dos dados e implementação das operações é completamente separada do cliente.

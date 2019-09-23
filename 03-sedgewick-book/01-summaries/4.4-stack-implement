@@ -1,0 +1,3 @@
+-Implementação de pilha com vetor x lista ligada:
+Vantagem do vetor: mais rápido, lida melhor com pilhas grandes e que costumam ficar lotadas. Todavia, se formos trabalhar com uma lista que provavelmente ficará pequena e nem sempre lotada, convém usar a lista ligada por economizar um espaço substacial na memória.
+Dicotomia entre ser capaz de acessar qualquer item rapidamente, mas ter que prever o número máximo de itens (vetor) ou usar espaço adequado de acordo com o número de itens, perdendo a capacidade de acessar todo item rapidamente (lista ligada).

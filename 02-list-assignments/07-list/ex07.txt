@@ -1,0 +1,10 @@
+(i) Para retornar EASY, devemos dar um push para cada letra e logo em seguida um pop, retornando na ordem inserida, ou seja:
+E*A*S*Y*
+
+(ii) Para retornar YSAE, devemos (contrário da sequência original) devemos empilhar toda a sequência e seguida desempilhá-la, ou seja:
+EASY****
+
+(iii) Para retornar ASYE, devemos devemos empilhar até a primeira letra pretendida, ou seja, A, empilhando E e A executando um pop após o A. Após isso executar push e pop subsequentes para S e Y, finalmente desempilhando o E:
+EA*S*Y**
+
+(iv) Não é possível executar o retorno da pilha como AYES, pois deve-se empilhar até A, retornando A logo em seguida (EA*). Depois disso, empilha-se S, empilha-se Y e pop (EA*SY*). Todavia, a pilha encontra-se após isso com ES em sequência, não sendo possível desempilhar o E antes do S.
